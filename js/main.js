@@ -26,6 +26,17 @@ xbtn.addEventListener('click', function() {
   usersbox.classList.remove('open');
 });
 
-// xbtn.addEventListener('click', function() {
-//   usersbox.classList.add('off');
-// });
+// product
+
+let productbtn = document.getElementById('id-show');
+let productxbtn = document.getElementById('id-xproduct');
+let productbox = document.getElementById('id-product');
+
+
+productbtn.addEventListener('click', function() {
+  productbox.classList.add('opens');
+});
+
+productxbtn.addEventListener('click', function() {
+  productbox.classList.remove('opens');
+});
