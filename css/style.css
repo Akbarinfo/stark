@@ -328,7 +328,7 @@ main {
 .modal-search-box {
   position: relative;
   top: 92px;
-  animation: show 0.7s linear;
+  animation: show 0.5s linear;
 }
 
 @keyframes show {
