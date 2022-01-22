@@ -40,3 +40,20 @@ productbtn.addEventListener('click', function() {
 productxbtn.addEventListener('click', function() {
   productbox.classList.remove('opens');
 });
+
+// product
+
+let msgidbtn = document.getElementById('id-message');
+let msgxbtn = document.getElementById('id-messagex');
+let msgbox = document.getElementById('id-msgbox');
+
+
+msgidbtn.addEventListener('click', function() {
+  msgbox.classList.add('on');
+});
+
+msgxbtn.addEventListener('click', function() {
+  msgbox.classList.remove('on');
+});
+
+
